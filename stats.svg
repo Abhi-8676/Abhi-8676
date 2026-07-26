@@ -1,0 +1,93 @@
+<svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+<defs>
+  <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1a0b2e"/>
+    <stop offset="100%" stop-color="#33124d"/>
+  </linearGradient>
+  <linearGradient id="ringGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ff6ec7"/>
+    <stop offset="100%" stop-color="#a855f7"/>
+  </linearGradient>
+  <clipPath id="statsFrame"><rect x="0" y="0" width="420" height="220" rx="16"/></clipPath>
+  <style>
+    .title { fill: #f5e8ff; font-size: 15px; font-weight: 700; }
+    .stat-label { fill: #d9c2ff; font-size: 12px; }
+    .stat-value { fill: #ffffff; font-size: 12px; font-weight: 700; }
+    .track { fill: #ffffff; opacity: 0.12; }
+    .rank-text { fill: #ffffff; font-size: 28px; font-weight: 800; }
+    .rank-label { fill: #d9c2ff; font-size: 10px; letter-spacing: 1px; }
+  </style>
+</defs>
+<g clip-path="url(#statsFrame)">
+  <rect x="0" y="0" width="420" height="220" fill="url(#cardBg)"/>
+  <rect x="0" y="0" width="420" height="220" fill="none" stroke="#d946ef" stroke-opacity="0.35"/>
+  <text x="24" y="34" class="title">Abhishek Kumar's GitHub Stats</text>
+  <g transform="translate(24,54)">
+    
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.4s" fill="freeze"/>
+      <text x="0" y="28" class="stat-label">Total Stars:</text>
+      <text x="205" y="28" text-anchor="end" class="stat-value">128</text>
+      <rect x="0" y="36" width="170" height="6" rx="3" class="track"/>
+      <rect x="0" y="36" width="0" height="6" rx="3" fill="#ff6ec7">
+        <animate attributeName="width" from="0" to="43.5" begin="0.75s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="0;43.5"/>
+      </rect>
+    </g>
+    
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.82s" dur="0.4s" fill="freeze"/>
+      <text x="0" y="62" class="stat-label">Total Commits:</text>
+      <text x="205" y="62" text-anchor="end" class="stat-value">1240</text>
+      <rect x="0" y="70" width="170" height="6" rx="3" class="track"/>
+      <rect x="0" y="70" width="0" height="6" rx="3" fill="#a855f7">
+        <animate attributeName="width" from="0" to="70.3" begin="0.97s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="0;70.3"/>
+      </rect>
+    </g>
+    
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.04s" dur="0.4s" fill="freeze"/>
+      <text x="0" y="96" class="stat-label">Total PRs:</text>
+      <text x="205" y="96" text-anchor="end" class="stat-value">46</text>
+      <rect x="0" y="104" width="170" height="6" rx="3" class="track"/>
+      <rect x="0" y="104" width="0" height="6" rx="3" fill="#6ec7ff">
+        <animate attributeName="width" from="0" to="52.1" begin="1.19s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="0;52.1"/>
+      </rect>
+    </g>
+    
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.26s" dur="0.4s" fill="freeze"/>
+      <text x="0" y="130" class="stat-label">Total Issues:</text>
+      <text x="205" y="130" text-anchor="end" class="stat-value">22</text>
+      <rect x="0" y="138" width="170" height="6" rx="3" class="track"/>
+      <rect x="0" y="138" width="0" height="6" rx="3" fill="#9be9a8">
+        <animate attributeName="width" from="0" to="37.4" begin="1.41s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="0;37.4"/>
+      </rect>
+    </g>
+    
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.48s" dur="0.4s" fill="freeze"/>
+      <text x="0" y="164" class="stat-label">Contributed to:</text>
+      <text x="205" y="164" text-anchor="end" class="stat-value">15</text>
+      <rect x="0" y="172" width="170" height="6" rx="3" class="track"/>
+      <rect x="0" y="172" width="0" height="6" rx="3" fill="#ffd166">
+        <animate attributeName="width" from="0" to="51.0" begin="1.63s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="0;51.0"/>
+      </rect>
+    </g>
+    
+  </g>
+
+  <g transform="translate(340,110)">
+    <circle r="54" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="10"/>
+    <circle r="54" fill="none" stroke="url(#ringGrad2)" stroke-width="10" stroke-linecap="round"
+      transform="rotate(-90)"
+      stroke-dasharray="0 339.3">
+      <animate attributeName="stroke-dasharray" from="0 339.3" to="291.8 339.3"
+        begin="1.4s" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="0 339.3;291.8 339.3"/>
+    </circle>
+    <text x="0" y="6" text-anchor="middle" class="rank-text" opacity="0">A-
+      <animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.5s" fill="freeze"/>
+    </text>
+    <text x="0" y="-66" text-anchor="middle" class="rank-label">RANK</text>
+  </g>
+</g>
+</svg>

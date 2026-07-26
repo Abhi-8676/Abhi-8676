@@ -1,0 +1,74 @@
+<svg viewBox="0 0 760 200" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="cardBg3" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1a0b2e"/>
+    <stop offset="100%" stop-color="#33124d"/>
+  </linearGradient>
+  <clipPath id="trophyFrame"><rect x="0" y="0" width="760" height="200" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#trophyFrame)">
+  <rect x="0" y="0" width="760" height="200" fill="url(#cardBg3)"/>
+  <rect x="0" y="0" width="760" height="200" fill="none" stroke="#d946ef" stroke-opacity="0.35"/>
+  
+    <g transform="translate(63.333333333333336,100)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.30s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="63.333333333333336,130" to="63.333333333333336,100" begin="0.30s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="63.333333333333336,130;63.333333333333336,100" additive="replace"/>
+      <polygon points="0,-52 46,-16 30,44 -30,44 -46,-16" fill="none" stroke="#ff6ec7" stroke-width="2.5" opacity="0.85">
+        <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="2.6s" begin="0.80s" repeatCount="indefinite"/>
+      </polygon>
+      <text x="0" y="-6" text-anchor="middle" font-size="20" font-weight="800" fill="#ff6ec7" font-family="'Segoe UI', Helvetica, Arial, sans-serif">AAA</text>
+      <text x="0" y="70" text-anchor="middle" font-size="12" fill="#e9d8ff" font-family="'Segoe UI', Helvetica, Arial, sans-serif">Commits</text>
+    </g>
+    
+    <g transform="translate(190.0,100)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.48s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="190.0,130" to="190.0,100" begin="0.48s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="190.0,130;190.0,100" additive="replace"/>
+      <polygon points="0,-52 46,-16 30,44 -30,44 -46,-16" fill="none" stroke="#ffd166" stroke-width="2.5" opacity="0.85">
+        <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="2.6s" begin="0.98s" repeatCount="indefinite"/>
+      </polygon>
+      <text x="0" y="-6" text-anchor="middle" font-size="20" font-weight="800" fill="#ffd166" font-family="'Segoe UI', Helvetica, Arial, sans-serif">A+</text>
+      <text x="0" y="70" text-anchor="middle" font-size="12" fill="#e9d8ff" font-family="'Segoe UI', Helvetica, Arial, sans-serif">Stars</text>
+    </g>
+    
+    <g transform="translate(316.6666666666667,100)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.66s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="316.6666666666667,130" to="316.6666666666667,100" begin="0.66s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="316.6666666666667,130;316.6666666666667,100" additive="replace"/>
+      <polygon points="0,-52 46,-16 30,44 -30,44 -46,-16" fill="none" stroke="#9be9a8" stroke-width="2.5" opacity="0.85">
+        <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="2.6s" begin="1.16s" repeatCount="indefinite"/>
+      </polygon>
+      <text x="0" y="-6" text-anchor="middle" font-size="20" font-weight="800" fill="#9be9a8" font-family="'Segoe UI', Helvetica, Arial, sans-serif">A</text>
+      <text x="0" y="70" text-anchor="middle" font-size="12" fill="#e9d8ff" font-family="'Segoe UI', Helvetica, Arial, sans-serif">PRs</text>
+    </g>
+    
+    <g transform="translate(443.3333333333333,100)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.84s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="443.3333333333333,130" to="443.3333333333333,100" begin="0.84s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="443.3333333333333,130;443.3333333333333,100" additive="replace"/>
+      <polygon points="0,-52 46,-16 30,44 -30,44 -46,-16" fill="none" stroke="#6ec7ff" stroke-width="2.5" opacity="0.85">
+        <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="2.6s" begin="1.34s" repeatCount="indefinite"/>
+      </polygon>
+      <text x="0" y="-6" text-anchor="middle" font-size="20" font-weight="800" fill="#6ec7ff" font-family="'Segoe UI', Helvetica, Arial, sans-serif">B+</text>
+      <text x="0" y="70" text-anchor="middle" font-size="12" fill="#e9d8ff" font-family="'Segoe UI', Helvetica, Arial, sans-serif">Issues</text>
+    </g>
+    
+    <g transform="translate(570.0,100)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.02s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="570.0,130" to="570.0,100" begin="1.02s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="570.0,130;570.0,100" additive="replace"/>
+      <polygon points="0,-52 46,-16 30,44 -30,44 -46,-16" fill="none" stroke="#a855f7" stroke-width="2.5" opacity="0.85">
+        <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="2.6s" begin="1.52s" repeatCount="indefinite"/>
+      </polygon>
+      <text x="0" y="-6" text-anchor="middle" font-size="20" font-weight="800" fill="#a855f7" font-family="'Segoe UI', Helvetica, Arial, sans-serif">B</text>
+      <text x="0" y="70" text-anchor="middle" font-size="12" fill="#e9d8ff" font-family="'Segoe UI', Helvetica, Arial, sans-serif">Reviews</text>
+    </g>
+    
+    <g transform="translate(696.6666666666667,100)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="696.6666666666667,130" to="696.6666666666667,100" begin="1.20s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1" values="696.6666666666667,130;696.6666666666667,100" additive="replace"/>
+      <polygon points="0,-52 46,-16 30,44 -30,44 -46,-16" fill="none" stroke="#ff8ad8" stroke-width="2.5" opacity="0.85">
+        <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="2.6s" begin="1.70s" repeatCount="indefinite"/>
+      </polygon>
+      <text x="0" y="-6" text-anchor="middle" font-size="20" font-weight="800" fill="#ff8ad8" font-family="'Segoe UI', Helvetica, Arial, sans-serif">A-</text>
+      <text x="0" y="70" text-anchor="middle" font-size="12" fill="#e9d8ff" font-family="'Segoe UI', Helvetica, Arial, sans-serif">Followers</text>
+    </g>
+    
+</g>
+</svg>
